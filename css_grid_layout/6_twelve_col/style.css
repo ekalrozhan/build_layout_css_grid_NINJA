@@ -6,6 +6,10 @@ body{
     background: #f5f5f5;
 }
 
+p{
+    color: #6d6d6d;
+}
+
 .grid{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -48,6 +52,7 @@ main img{
 
 main .welcome{
     grid-column: 8 / span 5;
+    align-self: center;
 }
 
 main > h2{
@@ -56,6 +61,8 @@ main > h2{
     font-size: 1.5em;
     padding-top: 20px;
 }
+
+
 
 main .card{
     grid-column: span 4;
